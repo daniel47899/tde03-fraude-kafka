@@ -12,7 +12,18 @@ INTERVALO_SEGUNDOS = 3
 
 CIDADES = ["Fortaleza", "Recife", "Salvador", "São Paulo", "Curitiba"]
 
-CLIENTES = {f"C{numero:03d}": CIDADES[numero % len(CIDADES)] for numero in range(1, 26)}
+CLIENTES = {
+    "C001": "Recife",
+    "C002": "Salvador",
+    "C003": "São Paulo",
+    "C004": "Curitiba",
+    "C005": "Fortaleza",
+    "C006": "Recife",
+    "C007": "Salvador",
+    "C008": "São Paulo",
+    "C009": "Curitiba",
+    "C010": "Fortaleza",
+}
 
 CATEGORIAS = ["supermercado", "farmacia", "restaurante", "eletronicos", "viagem"]
 
